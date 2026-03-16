@@ -59,14 +59,14 @@ End-to-end recommendation pipeline for Apparel product ranking.
 Agent-based system for classifying business relevance for complex category queries.  
 **Architecture:** compares zero-shot LLM baseline vs LLM agent with web search (agent loop: analysis → search → context update → classification)  
 **Tech:** Python · LangGraph · LLM Agents · Tavily Search API · Trafilatura  
-**Focus:** agent architectures, information retrieval, reasoning with external tools
+**Focus:** agent architectures, information retrieval, reasoning with external tools  
 **Repository:** [GitHub](https://github.com/ilnitskii/maps_ai_agent)
 
 ### Tool Calling Assistant — Lyrics Retrieval
 Experiment with LLM tool calling systems.  
 **Pipeline:** user query analysis → tool decision → argument extraction → API request → response generation  
 **Metrics:** tool call detection accuracy 0.94, end-to-end success rate 65%  
-**Tech:** Python · Gemma · LLM Tool Calling · librosa
+**Tech:** Python · Gemma · LLM Tool Calling · librosa  
 **Repository:** [GitHub](https://github.com/ilnitskii/speech-toolcalling)
 
 ### Building Segmentation from Aerial Imagery
